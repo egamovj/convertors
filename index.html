@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+    <h1>Who can go first?</h1>
+    <div class="input-container">
+        <input type="number" id="distance" step="1" placeholder="100km">
+        <button id="calculate-button">Calculate</button>
+    </div>
+    <div id="results" class="results-container">
+        <div class="result">
+            <img src="./images/man.png" alt="Ходьба">
+            <p>On foot: <span id="walk-time"></span></p>
+        </div>
+        <div class="result">
+            <img src="./images/bicycle.png" alt="Велосипед">
+            <p>On a bicycle: <span id="bike-time"></span></p>
+        </div>
+        <div class="result">
+            <img src="./images/car.png" alt="Автомобиль">
+            <p>On a car: <span id="car-time"></span></p>
+        </div>
+        <div class="result">
+            <img src="./images/plane.png" alt="Самолет">
+            <p>On a Plane: <span id="plane-time"></span></p>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <h1>Celsius to Fahrenheit Converter</h1>
+        <div class="container-input">
+            <input type="number" id="celsius" placeholder="Enter Celsius temperature">
+            <button id="convert">Convert</button>
+        </div>
+        <div class="result-converter" id="result"></div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <h4 class="run-tomorrow">Will we run tomorrow</h4>
+        <p class="result-idea"><span class="yes">YES</span> / <span class="no">NO</span></p>
+        <form class="form-idea">
+            <div>
+                <label class="h5">Temperature</label>
+                <input class="form-idea__temp" type="number" step="any" placeholder="C">
+            </div>
+            <div class="checkboxs">
+                <label for="raining">
+                    <input class="checkbox-rain" type="checkbox" id="raining">
+                    Is it raining
+                </label>
+                <label for="training">
+                    <input class="checkbox-train" type="checkbox" id="training">
+                    Is training club open
+                </label>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

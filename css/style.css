@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: all 0.5s ease-in-out;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #007bff;
+    border-color: #007bff;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+.results-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.result {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 200px;
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-bottom: 10px;
+}
+
+
+/* Celcius to Fahrenheit */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #fff;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 50px auto 50px auto;
+}
+
+.container-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#celsius {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#convert {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.result-converter {
+    font-size: 20px;
+}
+
+
+/* Will we run tomorrow */
+
+.result-idea {
+    font-size: 40px;
+}
+
+.run-tomorrow {
+    font-size: 18px;
+}
+
+.checkboxs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
